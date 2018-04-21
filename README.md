@@ -1,4 +1,5 @@
 # Todo app with ReactJS and NodeJS
+![todo_reactjs_nodejs](https://user-images.githubusercontent.com/1289631/39080378-2339e3fc-4557-11e8-9a6c-bf8adbb1f33c.png)
 
 ## Server
 ### Require
