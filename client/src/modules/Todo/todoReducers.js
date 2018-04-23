@@ -5,7 +5,7 @@ import {
     TODO_DELETE,
     TODO_FILTER,
     TODO_FILTER_ALL
-} from './todoActions';
+} from './todoActionTypes';
 
 const todo = (state, action) => {
     switch (action.type) {

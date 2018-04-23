@@ -7,7 +7,7 @@ import {
     TODO_FILTER_ALL,
     TODO_FILTER_ACTIVE,
     TODO_FILTER_COMPLETED
-} from './todoActions';
+} from './todoActionTypes';
 import { initTodo } from "./todoActions";
 
 class TodoList extends React.Component {

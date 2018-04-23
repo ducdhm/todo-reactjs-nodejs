@@ -1,7 +1,7 @@
 import {
     LOADING_HIDE,
     LOADING_SHOW
-} from "./loadingActions";
+} from "./loadingActionTypes";
 
 const initState = {
     loading: true

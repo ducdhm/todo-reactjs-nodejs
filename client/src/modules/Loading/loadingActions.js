@@ -1,5 +1,7 @@
-export const LOADING_SHOW = 'LOADING_SHOW';
-export const LOADING_HIDE = 'LOADING_HIDE';
+import {
+    LOADING_HIDE,
+    LOADING_SHOW
+} from "./loadingActionTypes";
 
 export const hideLoading = () => {
     return {

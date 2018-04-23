@@ -4,7 +4,7 @@ import {
     TODO_FILTER_ALL,
     TODO_FILTER_ACTIVE,
     TODO_FILTER_COMPLETED
-} from './todoActions';
+} from './todoActionTypes';
 
 class TodoFilter extends React.Component {
     render() {

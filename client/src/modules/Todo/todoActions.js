@@ -1,15 +1,13 @@
 import axios from "axios/index";
 import qs from 'qs';
 import { hideLoading, showLoading } from "../Loading/loadingActions";
-
-export const TODO_ADD = 'TODO_ADD';
-export const TODO_INIT = 'TODO_INIT';
-export const TODO_TOGGLE = 'TODO_TOGGLE';
-export const TODO_DELETE = 'TODO_DELETE';
-export const TODO_FILTER = 'TODO_FILTER';
-export const TODO_FILTER_ALL = 'TODO_FILTER_ALL';
-export const TODO_FILTER_ACTIVE = 'TODO_FILTER_ACTIVE';
-export const TODO_FILTER_COMPLETED = 'TODO_FILTER_COMPLETED';
+import {
+    TODO_ADD,
+    TODO_INIT,
+    TODO_TOGGLE,
+    TODO_DELETE,
+    TODO_FILTER
+} from './todoActionTypes';
 
 export const initTodo = () => {
     return (dispatch) => {
