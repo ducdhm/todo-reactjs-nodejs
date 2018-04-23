@@ -1,5 +1,4 @@
 import React from 'react';
-import { connect } from 'react-redux';
 
 import Todo from './modules/Todo/Todo';
 import Loading from './modules/Loading/Loading';
