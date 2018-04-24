@@ -11,7 +11,7 @@ import {
 
 export const initTodo = () => {
     return (dispatch) => {
-        axios.get('http://localhost:5000/todo/')
+        axios.get('/todo/')
             .then((response) => {
                 dispatch({
                     type: TODO_INIT,
@@ -27,7 +27,7 @@ export const addTodo = (text) => {
         dispatch(showLoading());
         axios({
             method: 'post',
-            url: 'http://localhost:5000/todo/new',
+            url: '/todo/new',
             headers: {
                 "Content-type": 'application/x-www-form-urlencoded'
             },
@@ -47,7 +47,7 @@ export const addTodo = (text) => {
 export const deleteTodo = (id) => {
     return (dispatch) => {
         dispatch(showLoading());
-        axios.post(`http://localhost:5000/todo/${id}/delete`)
+        axios.post(`/todo/${id}/delete`)
             .then((response) => {
                 dispatch({
                     type: TODO_DELETE,
@@ -61,7 +61,7 @@ export const deleteTodo = (id) => {
 export const toggleTodo = (id) => {
     return (dispatch) => {
         dispatch(showLoading());
-        axios.post(`http://localhost:5000/todo/${id}/toggle`)
+        axios.post(`/todo/${id}/toggle`)
             .then((response) => {
                 dispatch({
                     type: TODO_TOGGLE,

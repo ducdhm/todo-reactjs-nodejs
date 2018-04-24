@@ -5,11 +5,6 @@ var app = reno.app;
 var config = reno.config;
 
 
-// Import middlewares
-// --------------------------------
-require('./server/middlewares/cors');
-
-
 // Import modules
 // --------------------------------
 require('./server/todo/index');
